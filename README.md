@@ -15,8 +15,8 @@ pip install get-stick-bugged-lol
 
 ## Usage
 #### In the terminal
-Installing the package will register the `gsbl` command in the terminal. To use the image `input.png` to generate the
-video `output.mp4`:
+Installing the package will register the `gsbl` command in the terminal (or you can use `python -m gsbl`). To use the
+image `input.png` to generate the video `output.mp4`:
 ```
 gsbl input.png output.mp4
 ```
