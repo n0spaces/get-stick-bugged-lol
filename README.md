@@ -2,6 +2,8 @@
 A Python module and command-line tool that generates a 
 [Get Stick Bugged Lol](https://knowyourmeme.com/memes/get-stick-bugged-lol) video from any image.
 
+![Example](examples/python.gif)
+
 This script uses [pylsd-nova](https://github.com/AndranikSargsyan/pylsd-nova) to detect line segments in the image,
 Pillow to draw the lines as they move to form the stick bug, and MoviePy to create the video.
 
