@@ -1,6 +1,7 @@
 moviepy==1.0.3
 numpy==1.19.1
 Pillow==7.2.0
+pylsd-nova==1.0.0
 
 opencv-python~=4.4.0.40
 setuptools~=49.5.0
