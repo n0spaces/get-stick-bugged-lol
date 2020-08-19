@@ -1,14 +1,6 @@
-certifi==2020.6.20
-chardet==3.0.4
-decorator==4.4.2
-idna==2.10
-imageio==2.9.0
-imageio-ffmpeg==0.4.2
 moviepy==1.0.3
 numpy==1.19.1
 Pillow==7.2.0
-proglog==0.1.9
-pylsd-nova==1.0.0
-requests==2.24.0
-tqdm==4.48.2
-urllib3==1.25.10
+pylsd-nova==1.2.0
+
+setuptools~=49.6.0
