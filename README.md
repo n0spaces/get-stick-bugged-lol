@@ -10,8 +10,6 @@ This script uses [pylsd-nova](https://github.com/AndranikSargsyan/pylsd-nova) to
 Pillow to draw the lines as they move to form the stick bug, and MoviePy to create the video.
 
 ## Installation
-**NOTE: This package requires a 64-bit installation of Python 3. pylsd-nova does not work on 32-bit.**
-
 This package can be installed using pip:
 ```
 pip install get-stick-bugged-lol
