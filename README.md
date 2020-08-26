@@ -4,6 +4,8 @@ A Python module and command-line tool that generates a
 
 ![Example](examples/python.gif)
 
+[Example video with sound](https://github.com/n0spaces/get-stick-bugged-lol/raw/master/examples/python.mp4)
+
 This script uses [pylsd-nova](https://github.com/AndranikSargsyan/pylsd-nova) to detect line segments in the image,
 Pillow to draw the lines as they move to form the stick bug, and MoviePy to create the video.
 
@@ -15,8 +17,8 @@ pip install get-stick-bugged-lol
 
 ## Usage
 #### In the terminal
-Installing the package will register the `gsbl` command in the terminal. To use the image `input.png` to generate the
-video `output.mp4`:
+Installing the package will register the `gsbl` command in the terminal (or you can use `python -m gsbl`). To use the
+image `input.png` to generate the video `output.mp4`:
 ```
 gsbl input.png output.mp4
 ```
