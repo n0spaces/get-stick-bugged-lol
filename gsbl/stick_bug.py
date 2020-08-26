@@ -8,7 +8,7 @@ from pylsd.lsd import lsd
 
 # static media files
 pkg_path = os.path.dirname(os.path.realpath(__file__))
-video_stick_bug = editor.VideoFileClip(os.path.join(pkg_path, 'media/stick_bug_square.mp4'))
+video_stick_bug = editor.VideoFileClip(os.path.join(pkg_path, 'media/stick_bug.mp4'))
 audio_notes = [
     editor.AudioFileClip(os.path.join(pkg_path, 'media/note0.wav')),
     editor.AudioFileClip(os.path.join(pkg_path, 'media/note1.wav')),
