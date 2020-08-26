@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='get-stick-bugged-lol',
-    version='0.0.2',
+    version='1.0.0',
     author='n0spaces',
     description="'Get stick bugged' video generator",
     long_description=long_description,
@@ -14,7 +14,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     package_data={'gsbl': ['media/*.*']},
     entry_points={'console_scripts': ['gsbl=gsbl.__main__:main']},
-    install_requires=['pylsd-nova', 'numpy', 'Pillow', 'moviepy'],
+    install_requires=['pylsd-nova?=1.2.0', 'numpy', 'Pillow', 'moviepy'],
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
