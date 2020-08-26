@@ -3,4 +3,4 @@ numpy==1.19.1
 Pillow==7.2.0
 pylsd-nova==1.2.0
 
-setuptools~=49.6.0
+setuptools>=49.5.0
