@@ -17,18 +17,13 @@ def main():
                         metavar=('R', 'G', 'B'),
                         help='RGB background color after image disappears (default: 125 115 119)')
     parser.add_argument('-s --scale', dest='lsd_scale', type=float, default=0.8, metavar='SCALE',
-                        help='the image scale passed to the line segment detector. Slightly lowering this may improve'
+                        help='the image scale passed to the line segment detector. Slightly lowering this may improve '
                              'results in large images. This does not affect the image scale in the video (try '
                              '--resolution instead). (default: 0.8)')
 
     args = parser.parse_args()
 
-    try:
-        from gsbl.stick_bug import StickBug
-    except ImportError:
-        # if running this file directly while the package isn't installed
-        # noinspection PyUnresolvedReferences
-        from stick_bug import StickBug
+    from gsbl.stick_bug import StickBug
 
     sb = StickBug(img=args.input, video_resolution=args.resolution, lsd_scale=args.lsd_scale,
                   img_bg_color=args.img_bg_color, line_color=args.line_color, line_bg_color=args.line_bg_color)
