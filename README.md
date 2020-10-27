@@ -78,6 +78,21 @@ images. This does not affect the image scale in the video.
 * `line_color` the color of the line segments in the video
 * `line_bg_color` the background color of the video after the image disappears
 
+## Building
+Install the required packages:
+
+    pip install -r requirements.txt
+
+Install this package directly:
+
+    cd [path to repository]
+    pip install .
+
+Or build a wheel:
+
+    cd [path to repository]
+    python3 setup.py bdist_wheel
+
 ## License
 This package is available under the MIT License. See [LICENSE](LICENSE) for more info.
 
