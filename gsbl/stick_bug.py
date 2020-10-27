@@ -332,4 +332,10 @@ class StickBug:
 
     def save_video(self, fp: str):
         """Save the video file"""
-        self.video.write_videofile(fp)
+        self.video.write_videofile(
+            fp,
+            codec='libx264',
+            audio_codec='aac',
+            temp_audiofile='temp-audio.m4a',
+            remove_temp=True
+        )
