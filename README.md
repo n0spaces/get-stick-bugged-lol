@@ -2,6 +2,11 @@
 A Python module and command-line tool that generates a 
 [Get Stick Bugged Lol](https://knowyourmeme.com/memes/get-stick-bugged-lol) video from any image.
 
+
+## Introduction
+Welcome to the realm of the sneakiest insect on the internet! Brace yourselves as we embark on a journey filled with twists, turns, and the unexpected. Our project isn't just about bugs, it's about the ultimate surprise package! Prepare to be 'Stick Bugged,' where every click takes you on an adventure you never saw coming. Get ready to laugh, be puzzled, and perhaps dance a little with our deceptive yet delightful collection of stick bug surprises. Strap in—this project is more than meets the eye.
+
+
 ## Example
 ```commandline
 gsbl python.jpg python.mp4 -r 760 475 -s 0.7
